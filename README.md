@@ -81,23 +81,24 @@
 
 ### How to Test with gRPC
 
-1. In **Service 1 (Client)**, ensure the communication mode is set to gRPC:
+1. In **Service 1 (Client)**:
 
    ```
-   MODE=grpc
+   cd service-1
+   npm start
    ```
 
-2. Start **Service 2 (Server)** in gRPC mode:
+2. Start **Service 2 (Server)** :
 
    ```bash
    cd service-2
    npm run grpc
    ```
 
-3. Start **Service 1 (Client)**:
+3. Start **Service 2 (Client)**:
 
    ```bash
-   cd service-1
+   cd service-2
    npm start
    ```
 
