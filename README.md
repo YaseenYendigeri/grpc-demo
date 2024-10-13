@@ -1,7 +1,3 @@
-Here's a focused section for your project on **gRPC** performance in the context of seeding large arrays of geopoints into MongoDB:
-
----
-
 ## gRPC Performance for Inter-Service Communication
 
 ### Overview
